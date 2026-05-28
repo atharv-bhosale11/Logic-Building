@@ -31,4 +31,4 @@ int main()
     return 0;
 }
 
-// TimeComplexity is 0(n)
+//Time Complexity is O(n)
