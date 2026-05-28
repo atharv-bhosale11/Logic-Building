@@ -12,7 +12,7 @@ double FhtoCs(float fTemp)
 
 int main()
 {
-    float fValue = 0;
+    float fValue = 0.0;
     double dRet = 0.0;
     
     printf("Enter Temperature in Fahreneheit: ");
