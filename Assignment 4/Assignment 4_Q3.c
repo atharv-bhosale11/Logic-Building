@@ -25,4 +25,4 @@ int main()
     return 0;
 }
 
-// TIme Complexity is 0(n).
+// TIme Complexity is 0(n)
