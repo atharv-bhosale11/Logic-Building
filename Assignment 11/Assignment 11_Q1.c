@@ -5,7 +5,7 @@ void RangeDisplay(int iStart, int iEnd)
     int iCnt = 0;
     if (iStart > iEnd)
         {
-            printf("Invalid Output");
+            printf("Invalid Range");
             return;
         }
 
