@@ -16,7 +16,7 @@ void Display(int Arr[],int iLength)
 
 int main()
 {
-    int iSize = 0, iRet = 0, iCnt = 0;
+    int iSize = 0, iCnt = 0;
     int *p = NULL;
 
     printf("Enter the Size of Array: ");
