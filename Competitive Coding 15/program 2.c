@@ -52,9 +52,6 @@ int main()
     {
         printf("First Occurance of Number is %d",iRet);
     }
-    {
-        /* code */
-    }
     
     free(p);
 
