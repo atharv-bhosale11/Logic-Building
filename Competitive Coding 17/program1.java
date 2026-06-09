@@ -3,7 +3,7 @@ class Logic
     void sumofDigits(int num)
     {
         int iCnt = 0, iSum = 0, iDigit = 0;
-
+ 
         while(num != 0)
         {
             iDigit = num % 10;
