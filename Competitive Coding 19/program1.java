@@ -1,6 +1,6 @@
 class Logic
 {
-    void CheckLeapYear(int year)
+    void CheckLeapYear(int year) 
     {
         if((year % 4 == 0) && (year % 100 != 0))
         {
