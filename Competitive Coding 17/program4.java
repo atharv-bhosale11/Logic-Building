@@ -1,6 +1,4 @@
-
-
-class Logic
+class Logic 
 {
     void findmin(int a, int b, int c)
     {
