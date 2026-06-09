@@ -2,7 +2,7 @@ class Logic
 {
     void CheckLeapYear(int year)
     {
-        if((year % 4 == 0) && (year != 100) && (year % 100 != 0))
+        if((year % 4 == 0) && (year % 100 != 0))
         {
             System.out.println("It's a Leap Year");
         }
