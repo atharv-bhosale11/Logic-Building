@@ -3,7 +3,7 @@ class Logic
     void findmax(int a, int b)
     {
        int iMax = 0;
-
+ 
        if(a > b)
        {
         iMax = a;
