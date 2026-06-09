@@ -7,7 +7,7 @@ class Logic
         while(num != 0)
         {
             iDigit = num % 10;
-
+ 
             if(iDigit % 2 == 0)
             {
                 iSumEven = iSumEven + iDigit;
