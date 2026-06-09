@@ -1,5 +1,5 @@
 class Logic
-{
+{ 
     void printOddNumbers(int num)
     {
         int iCnt = 0;
