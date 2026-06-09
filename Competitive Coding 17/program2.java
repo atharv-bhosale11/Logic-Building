@@ -3,7 +3,7 @@ class Logic
     void checkPalindrome(int num)
     {
         int iCnt = 0, iDigit = 0, iRev = 0;
-        int temp = num;
+        int temp = num; 
 
         while(num != 0)
         {
