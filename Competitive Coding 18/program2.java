@@ -4,7 +4,7 @@ class Logic
     {
         int iCnt = 0;
 
-        for(iCnt = 0; iCnt <= num; iCnt++)
+        for(iCnt = 0; iCnt <= num; iCnt++) 
         {
             if(iCnt % 2 == 0)
             {
