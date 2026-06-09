@@ -12,7 +12,7 @@ class Logic
     }
 }       
 
-class program5
+class program5 
 {
     public static void main(String A[])
     {
