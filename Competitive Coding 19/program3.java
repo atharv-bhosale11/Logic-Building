@@ -13,6 +13,7 @@ class Logic
     }
 }       
 
+
 class program3
 {
     public static void main(String A[])
