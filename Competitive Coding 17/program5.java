@@ -5,7 +5,7 @@ class Logic
        int iCnt = 0;
 
        for(iCnt = 1; iCnt <= 10; iCnt++)
-       {
+       { 
         System.out.println(num+" * "+iCnt+" = "+num*iCnt);
        }
     }
