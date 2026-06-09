@@ -1,7 +1,7 @@
 class Logic
 {
     void checkSign(int num)
-    {
+    { 
         if(num > 0)
         {
             System.out.println("Number is Positive");
