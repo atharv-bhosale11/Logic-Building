@@ -27,6 +27,6 @@ class program3
     public static void main(String A[])
     {
         Logic lobj = new Logic();
-        lobj.CheckPerfet(6);;
+        lobj.CheckPerfet(6);
     }
 }
