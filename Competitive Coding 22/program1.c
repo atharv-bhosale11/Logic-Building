@@ -3,7 +3,7 @@
 void pattern(int iNo)
 {
     int iCnt = 0;
-    char ch ;
+    char ch = 0 ;
 
     for(iCnt = 1, ch = 'A'; iCnt <= iNo; iCnt++, ch++)
     {
