@@ -1,3 +1,9 @@
+/* Enter the No. of rows and columns: 4 4
+*       #       #       #
+*       *       #       #
+*       *       *       #
+*       *       *       *
+    */
 #include<stdio.h>
 
 void Pattern(int iRow, int iCol)
