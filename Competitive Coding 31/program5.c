@@ -34,6 +34,6 @@ int main()
     scanf("%[^'\n']s",arr);
 
     Reverse(arr);
-    printf(arr);
+    printf("%s",arr);
     return 0;
 }
