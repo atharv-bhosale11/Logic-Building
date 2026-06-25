@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void strlwrx(char *str)
+void struprx(char *str)
 {
     while (*str != '\0')
     {
@@ -20,7 +20,7 @@ int main()
     printf("Enter String: ");
     scanf("%[^\n]s",arr);
 
-    strlwrx(arr);
+    struprx(arr);
 
     printf("Modified String is %s ",arr);
 
