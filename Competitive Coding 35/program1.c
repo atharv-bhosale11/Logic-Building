@@ -3,27 +3,33 @@
 typedef int BOOL;
 typedef unsigned int UINT;
 
+#define TRUE 1
+#define FALSE 0
+
 BOOL ChkBit(UINT iNo)
 {
     UINT iMask = 0x4000;
     UINT iAns = 0;
 
-    iAns = iNo & iMask;
+    if(iAns=(iNo & iMask))
+    {
+        return TRUE;
+    }
 
-    return iAns;
+    return FALSE;
 }
 
 int main()
 {
     UINT iValue = 0;
-    UINT iRet = 0;
+    BOOL bRet = FALSE;
 
     printf("Enter the Value: ");
     scanf("%d",&iValue);
 
-    iRet = ChkBit(iValue);
+    bRet = ChkBit(iValue);
 
-    if(iRet != 0)
+    if(bRet == TRUE)
     {
         printf("15th bit is on");
     }
