@@ -6,10 +6,8 @@ UINT OffBit(UINT iNo)
 {
     UINT iMask = 0x40;
 
-    if(iNo & iMask)
-    {
-        iNo = iNo ^ iMask;
-    }
+    iNo = iNo ^ iMask;
+    
     return iNo;
 }
 
