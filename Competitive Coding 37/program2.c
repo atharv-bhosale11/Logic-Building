@@ -7,11 +7,9 @@ UINT OffBit(UINT iNo, UINT iPos)
     UINT iMask = 0x1;
     
     iMask = iMask << (iPos - 1);
-
-    if(iNo & iMask)
-    {
-        iNo = iNo &(~iMask);
-    }
+    
+    iNo = iNo &(~iMask);
+    
     return iNo;
 }
 
