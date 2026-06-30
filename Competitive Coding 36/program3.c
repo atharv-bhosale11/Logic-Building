@@ -2,7 +2,7 @@
 
 typedef unsigned int UINT;
 
-UINT OffBit(UINT iNo)
+UINT ToggleBit(UINT iNo)
 {
     UINT iMask = 0x40;
 
@@ -19,7 +19,7 @@ int main()
     printf("Enter Number: ");
     scanf("%d",&iValue);
 
-    iRet = OffBit(iValue);
+    iRet = ToggleBit(iValue);
 
     printf("Updated Number: %d",iRet);
 
