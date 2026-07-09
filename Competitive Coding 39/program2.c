@@ -75,7 +75,7 @@ int main()
 
     iRet = CountEven(head);
 
-    printf("Number of Even Elements: %d",iRet);
+    printf("\nNumber of Even Elements: %d",iRet);
 
     return 0;
 }
