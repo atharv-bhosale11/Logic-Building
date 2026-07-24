@@ -1,0 +1,2 @@
+Recursive Programs in C
+This repository contains C programs demonstrating recursion concepts. It covers basic to intermediate recursive problem-solving techniques. Programs include factorial, power, sum of digits, Fibonacci, GCD, and more. Each program is written with clear logic and proper documentation. Designed for students to understand recursive function execution step by step. A useful resource for learning and practicing recursion in C.
