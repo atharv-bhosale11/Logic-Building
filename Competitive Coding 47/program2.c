@@ -6,7 +6,7 @@
 #define BUFFER_SIZE 1024
 #define ERR_OPEN -1
 
-int CountCapital(char Fname[])
+int CountSmall(char Fname[])
 {
     char Buffer[BUFFER_SIZE] = {'\0'};
     int iRet = 0, fd = 0, iCount = 0, i = 0;
@@ -41,9 +41,9 @@ int main()
     printf("Enter File Name: ");
     scanf("%[^'\n']s",FileName);
 
-    iRet = CountCapital(FileName);
+    iRet = CountSmall(FileName);
 
-    printf("Number of Capital Character: %d",iRet);
+    printf("Number of Small Character: %d",iRet);
 
     return 0;
 }
