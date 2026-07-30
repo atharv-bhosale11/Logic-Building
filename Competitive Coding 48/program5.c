@@ -8,7 +8,6 @@
 void AppendX(char Fname[],char str[])
 {
     int fd = 0;
-    int iRet = 0;
     char Buffer[BUFFER_SIZE] = {'\0'};
 
     fd = open(Fname, O_WRONLY | O_APPEND);
