@@ -3,11 +3,8 @@
 #include<unistd.h>
 #include<string.h>
 
-#define BUFFER_SIZE 1024
-
 void DisplayN(char Fname[])
 {
-    char Buffer[BUFFER_SIZE] = {'\0'};
     int fd = 0;
 
     fd = open(Fname, O_RDONLY);
