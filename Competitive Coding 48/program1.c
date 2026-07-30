@@ -26,7 +26,6 @@ void DisplayN(char Fname[])
 int main()
 {
     char FileName[20];
-    int iValue;
 
     printf("Enter File Name: ");
     scanf("%[^'\n']s",FileName);
