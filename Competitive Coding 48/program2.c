@@ -3,8 +3,6 @@
 #include<unistd.h>
 #include<string.h>
 
-#define BUFFER_SIZE 1024
-
 void DisplayN(char Fname[])
 {
     int fd = 0;
