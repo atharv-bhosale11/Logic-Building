@@ -5,11 +5,10 @@
 
 #define BUFFER_SIZE 1024
 
-void AppendX(char Fname[])
+void AppendX(char Fname[],char str[])
 {
     int fd = 0;
     int iRet = 0;
-    int iSize = 0;
     char Buffer[BUFFER_SIZE] = {'\0'};
 
     fd = open(Fname, O_WRONLY | O_APPEND);
@@ -19,7 +18,7 @@ void AppendX(char Fname[])
         return;
     }
     
-    write(fd, "Hello World",strlen(" Hello World"));
+    write(fd, str,strlen(str));
 
     close(fd);
 }
@@ -28,11 +27,15 @@ int main()
 {
     char FileName[20];
     int iRet = 0;
+    char str[20];
 
     printf("Enter File Name: ");
     scanf("%[^'\n']s",FileName);
 
-    AppendX(FileName);
+    printf("Enter the Character: ");
+    scanf(" %[^'\n']s",str);
+
+    AppendX(FileName,str);
 
     printf("Successfully Done!!!");
 
