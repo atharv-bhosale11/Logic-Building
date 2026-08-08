@@ -1,0 +1,39 @@
+import java.io.*;
+import java.util.*;
+
+class program2
+{
+    public static void main(String A[]) throws Exception
+    {
+        Scanner sobj = new Scanner(System.in);
+
+        System.out.println("Enter Directory Name : ");
+        String Dname = sobj.nextLine();
+
+        File fobj = new File(Dname);
+
+        if(fobj.exists() && fobj.isDirectory())
+        {
+            FileOutputStream foobj = new FileOutputStream("Marvellous.txt");
+
+            File Arr[] = fobj.listFiles();
+
+            for(int i = 0; i < Arr.length; i++)
+            {
+                if(Arr[i].isFile())
+                {
+                    String str = Arr[i].getName()+"\n";
+                    foobj.write(str.getBytes());
+                }
+            }
+
+            foobj.close();
+
+            System.out.println("File names stored successfully");
+        }
+        else
+        {
+            System.out.println("Directory not found");
+        }
+    }
+}
