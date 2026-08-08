@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class first
+class program3
 {
     public static void main(String A[])
     {
