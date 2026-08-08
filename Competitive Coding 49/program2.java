@@ -3,7 +3,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.*;
 
-class program683
+class program2
 {
     public static void main(String A[]) throws IOException
     {
