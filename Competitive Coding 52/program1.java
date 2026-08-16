@@ -2,7 +2,7 @@
 In your college library, students borrow books for exams and assignments.
 
 The librarian wants an automatic fine calculator so that staff don't need to calculate fines manually for every student.
-
+    
 As per policy, a student can keep a borrowed book for up to 7 days without any penalty.
 
 If the book is returned late, the fine depends on how many days the student kept the book in total.
