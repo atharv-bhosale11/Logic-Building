@@ -17,7 +17,7 @@ Otherwise calculate the average and classify:
 
 import java.util.*;
 
-class Q3_StudentResult
+class program3
 {
     public static void main(String A[])
     {
