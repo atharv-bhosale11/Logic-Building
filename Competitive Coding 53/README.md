@@ -1,67 +1,79 @@
-Assignment 53 - Competitive Coding
-This assignment contains competitive coding and logic-building problems based on real-world scenarios. The programs focus on developing problem-solving skills by applying conditional statements, input validation, arithmetic operations, and logical conditions.
+---
 
-Questions
-Q1 - Parking Fee Calculation
-Calculate the parking fee based on the total number of hours a vehicle stays in a shopping mall parking area.
+# Assignment 53 — `README.md`
 
-First 2 hours → ₹20 flat
-After 2 hours → ₹10 per extra hour
-More than 10 hours → Additional ₹50 penalty
-Negative hours → Invalid input
-File: ParkFee.java
+```markdown
+# Assignment 53 - Competitive Coding
 
-Q2 - Personal Loan Eligibility
-Check whether a customer is eligible for a personal loan based on different eligibility conditions.
+This assignment focuses on solving real-world programming problems using logical thinking, decision-making, calculations, and input validation.
 
-Age must be between 21 and 60
-Monthly income must be at least ₹25,000
-Credit score must be at least 700
-Customer must not have an existing unpaid loan
-Invalid input should be handled
-File: LoanCheck.java
+The programs are designed to strengthen problem-solving skills by converting given requirements into structured and efficient Java solutions.
 
-Q3 - Stock Availability
-Check whether the requested quantity of a product is available in the warehouse.
+## Objective
 
-Requested quantity greater than available stock → Order fails
-Otherwise, deduct the requested quantity from the stock
-If remaining stock is less than 5 → Display low stock alert
-Stock cannot be negative
-Requested quantity must be greater than 0
-File: StockCheck.java
+The main objective of this assignment is to:
 
-Q4 - Traffic Fine Calculation
-Calculate the total traffic fine based on different rule violations.
+- Improve logical and analytical thinking
+- Understand programming problem statements
+- Convert real-world requirements into programming logic
+- Practice conditional statements and loops
+- Perform calculations based on given conditions
+- Handle invalid and boundary inputs
+- Develop structured programming solutions
 
-No helmet → ₹500
-No license → ₹1000
-Overspeeding → ₹1500
-Multiple violations → Add all applicable fines
-Input must be either Yes or No
-File: TrafficFine.java
+## Concepts Practiced
 
-Q5 - Income Tax Calculation
-Calculate annual income tax using progressive tax slabs.
+- Conditional Statements
+- If-Else Statements
+- Nested Conditions
+- Logical Operators
+- Arithmetic Operations
+- Loops
+- Input Validation
+- Boundary Conditions
+- User Defined Functions
+- Real-World Problem Solving
+- Competitive Coding
 
-Up to ₹2,50,000 → 0%
-₹2,50,001 to ₹5,00,000 → 5%
-₹5,00,001 to ₹10,00,000 → 20%
-Above ₹10,00,000 → 30%
-Negative income → Invalid input
-File: IncomeTax.java
+## Approach
 
-Concepts Practiced
-Conditional Statements
-If-Else Statements
-Nested Conditions
-Logical Operators
-Arithmetic Operations
-Input Validation
-Progressive Slab Calculations
-Real-World Problem Solving
-Competitive Coding Logic
-Technologies Used
-Java
-Visual Studio Code
-Git & GitHub
+Each problem is analyzed to understand its requirements, conditions, and expected output.
+
+The solution is implemented using suitable programming concepts while considering:
+
+- Valid and invalid inputs
+- Boundary conditions
+- Multiple possible cases
+- Calculations based on given rules
+- Proper output formatting
+- Separate functions for program logic
+
+## Repository Structure
+
+```text
+Assignment53/
+│
+├── Program files
+└── README.md ## Learning Outcome
+
+After completing this assignment, I improved my ability to:
+
+- Understand programming problem statements
+- Design logical solutions
+- Apply conditions and loops effectively
+- Perform calculations based on requirements
+- Handle different input cases
+- Validate user input
+- Divide program logic into separate functions
+- Solve competitive coding problems
+- Write clean and structured Java programs
+
+## Technologies Used
+
+- Java
+- Visual Studio Code
+- Git & GitHub
+
+## Author
+
+Atharv Tushar Bhosale
