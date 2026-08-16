@@ -1,52 +1,85 @@
-Assignment 56 - Competitive Coding
+---
+
+# Assignment 56 — `README.md`
+
+```markdown
+# Assignment 56 - Competitive Coding
+
 This assignment focuses on solving real-world programming problems using logical thinking, decision-making, calculations, and data handling techniques.
 
-The programs are designed to strengthen problem-solving skills by converting given problem statements into simple and structured programming solutions.
+The programs are designed to strengthen problem-solving skills by converting given problem statements into simple and structured Java solutions.
 
-Objective
+## Objective
+
 The main objective of this assignment is to:
 
-Improve logical and analytical thinking
-Understand and implement problem statements
-Convert real-world requirements into programming logic
-Practice conditional statements and loops
-Work with arrays and collections
-Handle duplicate data
-Perform calculations based on given rules
-Handle different input conditions and edge cases
-Concepts Practiced
-Conditional Statements
-If-Else Statements
-Logical Operators
-Arithmetic Operations
-Loops
-Arrays
-Collections
-Input Validation
-Duplicate Detection
-Maximum Value Finding
-Counting
-Real-World Problem Solving
-Competitive Coding
-Approach
-Each problem is analyzed to understand the given requirements, rules, and validations.
+- Improve logical and analytical thinking
+- Understand and implement problem statements
+- Convert real-world requirements into programming logic
+- Practice conditional statements and loops
+- Work with arrays and collections
+- Handle duplicate data
+- Perform calculations based on given rules
+- Handle different input conditions and edge cases
+
+## Concepts Practiced
+
+- Conditional Statements
+- If-Else Statements
+- Logical Operators
+- Arithmetic Operations
+- Loops
+- Arrays
+- Collections
+- Input Validation
+- Duplicate Detection
+- Maximum Value Finding
+- Counting
+- User Defined Functions
+- Real-World Problem Solving
+- Competitive Coding
+
+## Approach
+
+Each problem is analyzed to understand the given requirements, rules, and validation conditions.
 
 The solution is implemented using suitable programming concepts while considering:
 
-Valid and invalid inputs
-Boundary conditions
-Repeated values
-Different possible cases
-Calculations based on given rules
-Proper output formatting
+- Valid and invalid inputs
+- Boundary conditions
+- Repeated values
+- Different possible cases
+- Calculations based on given rules
+- Proper output formatting
+- Separate functions for program logic
 
-Learning Outcome
+## Repository Structure
+
+```text
+Assignment56/
+│
+├── Program files
+└── README.md ## Learning Outcome
+
 After completing this assignment, I improved my ability to:
 
-1.Read and understand programming problem statements 2.Design logical solutions before writing code 3.Apply conditions and loops effectively 4.Work with arrays and collections 5.Identify and handle duplicate values 6.Find maximum values and count required results 7.Perform calculations according to given rules 8.Handle boundary and invalid cases 9.Write clean and structured Java programs 10.Solve real-world competitive coding problems
+- Understand and process data using arrays
+- Traverse arrays using loops
+- Identify and handle duplicate values
+- Find maximum values
+- Count required results
+- Perform calculations according to given rules
+- Validate input values
+- Divide program logic into separate functions
+- Solve real-world competitive coding problems
+- Write clean and structured Java programs
 
-Technologies Used
--Java -Visual Studio Code -Git & GitHub
+## Technologies Used
 
-Author
+- Java
+- Visual Studio Code
+- Git & GitHub
+
+## Author
+
 Atharv Tushar Bhosale
