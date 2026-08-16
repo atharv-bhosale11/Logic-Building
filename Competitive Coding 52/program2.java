@@ -15,7 +15,7 @@ If all conditions are satisfied, the transaction should be successful.
 
 import java.util.*;
 
-class program1
+class program2
 {   
     public static void ATM(int iBalance, int iWithdraw)
     {
