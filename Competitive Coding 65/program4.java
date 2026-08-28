@@ -2,11 +2,11 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 
-public class program4
+public class program4s
 {
     public static void main(String A[])
     {
-        try
+        try 
         {
             String sServerIP = "localhost";
             int    iPort     = 8080;
