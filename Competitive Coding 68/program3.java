@@ -6,7 +6,7 @@ Product ID -> Available Quantity
 Implement operations:
 
 ADD 101 50
-ADD 102 30
+ADD 102 30  
 SELL 101 5
 RESTOCK 102 20
 SEARCH 101
