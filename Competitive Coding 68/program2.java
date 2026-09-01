@@ -8,7 +8,7 @@ Output: First non-repeating character : p
 The solution should preserve the original character order.
 */
 
-import java.util.*;
+import java.util.*; 
 
 class program2
 {
