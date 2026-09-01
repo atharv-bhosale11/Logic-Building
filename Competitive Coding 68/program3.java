@@ -27,7 +27,7 @@ class program3
 
         // ADD 101 50
         product.put(101,50);
-
+  
         // ADD 102 30
         product.put(102,30);
 
