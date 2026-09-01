@@ -1,6 +1,6 @@
 /*
 A banking application receives transaction IDs:
-
+ 
 TX101
 TX102
 TX103
